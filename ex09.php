@@ -8,3 +8,16 @@
 // sinon
 //   afficher 'non'
 
+$word = 'maison';
+$invertedWord = 'nosiam';
+$checkWord = '';
+
+for ($i = strlen($word) - 1; $i >= 0; $i--) {
+  $checkWord .= $word[$i];
+}
+
+if ($invertedWord === $checkWord) {
+  echo 'Palindrome';
+} else {
+  echo 'Non';
+}
