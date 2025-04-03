@@ -11,8 +11,4 @@
 $word = 'maison';
 $invertedWord = 'nosiam';
 
-if (strrev($word) === $invertedWord) {
-  echo 'Palindrome';
-} else {
-  echo 'Non';
-}
+echo strrev($word) === $invertedWord ? 'Palindrome' : 'Non';
