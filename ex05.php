@@ -7,3 +7,10 @@
 // sinon
 //   afficher 'impair'
 
+$number = 1;
+
+if ($number % 2 === 0) {
+  echo 'Pair';
+} else {
+  echo 'Impair';
+}
