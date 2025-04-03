@@ -10,13 +10,8 @@
 
 $word = 'maison';
 $invertedWord = 'nosiam';
-$checkWord = '';
 
-for ($i = strlen($word) - 1; $i >= 0; $i--) {
-  $checkWord .= $word[$i];
-}
-
-if ($invertedWord === $checkWord) {
+if (strrev($word) === $invertedWord) {
   echo 'Palindrome';
 } else {
   echo 'Non';
