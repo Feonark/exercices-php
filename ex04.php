@@ -5,3 +5,6 @@
 // pour i de 1 à 10 faire
 //   afficher '7 x i = ' + (7*i)
 
+for ($i = 1; $i < 11; $i++) {
+  echo '7 x ' . $i . ' = ' . (7 * $i) . '<br>';
+}
