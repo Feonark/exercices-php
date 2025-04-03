@@ -7,3 +7,11 @@
 //   fact *= i
 // afficher fact
 
+$fact = 1;
+$n = 10;
+
+for ($i = 1; $i <= $n; $i++) {
+  $fact *= $i;
+}
+
+echo 'Factorielle de ' . $n . ' = ' . $fact;
