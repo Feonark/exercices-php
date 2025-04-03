@@ -9,3 +9,14 @@
 // sinon
 //   afficher c
 
+$a = 11;
+$b = 15;
+$c = 10;
+
+if ($a >= $b && $a >= $c) {
+  echo $a;
+} else if ($b >= $a && $b >= $c) {
+  echo $b;
+} else {
+  echo $c;
+}
